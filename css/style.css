@@ -1,0 +1,87 @@
+/*Basic reset*/
+html body{
+	margin: 0;
+	padding: 0;
+}
+ul li{list-style-type: none;}
+footer{text-align: center;}
+
+/*General Styles*/
+.caps{text-transform: uppercase;}
+.add-margin{margin-left: 40px;}
+
+
+.container{
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid black;
+	
+}
+.header{
+	width: 900px;
+	height: 200px;
+	
+}
+.logo-wrapper{
+	width: 200px;
+	height: 150px;
+	
+	margin-left: 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+.logo-ph{
+	height: 75px;
+	
+	margin-bottom: 10px;
+}
+.contact-info{text-align: center;}
+.contact-info p{
+	margin: 0;
+}
+.header-statement{
+	width: 300px;
+	
+	display: inline-block;
+	margin-left: 70px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.img-wrapper{height: 200px;}
+.side-content{
+	float: left;
+	width: 150px;
+	
+	font-size: 10px;
+	margin-left: 40px;
+}
+.side-content ul{
+	text-align: center;
+	padding: 0;
+	line-height: 20px;
+}
+
+/*Section Styles*/
+.section{
+	margin-left: 40px;
+	margin-top: 60px;
+	display: inline-block;
+	
+	vertical-align: top;
+}
+.section h4{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+	margin-right: 40px;
+}
+.section-content{
+	width: 460px;
+	display: inline-block;
+}
+.section-content ul{
+	padding: 0;
+}
+.push-left{margin-left: 230px;}
+
+
