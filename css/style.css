@@ -12,6 +12,8 @@ html body{
 	margin: 0;
 	padding: 0;
 }
+
+/*Global Styles*/
 ul li{list-style-type: none;}
 footer{text-align: center;}
 h4{
@@ -20,13 +22,15 @@ h4{
 	font-family: 'arial';
 	font-weight: bold;
 }
-/*General Styles*/
+
 .caps{text-transform: uppercase;}
+
 .container{
 	width: 1100px;
 	margin: 0 auto;
-	border: 1px solid black;
 }
+
+/*Header Styles*/
 .header{
 	width: 1100px;
 	height: 447px;
@@ -66,6 +70,8 @@ h4{
 	text-transform: uppercase;
 	text-align: center;
 }
+
+/*Sidebar Styles*/
 .side-content{
 	float: left;
 	width: 150px;
@@ -81,6 +87,8 @@ h4{
 	padding: 0;
 	line-height: 20px;
 }
+
+
 
 /*Section Styles*/
 .section{
@@ -127,7 +135,7 @@ h4{
 	font-family: 'arial';
 }
 .testimonials p {
-	width: 410px;
+	width: 470px;
 }
 .testimonials h4{
 	margin-right: 50px;
@@ -137,10 +145,36 @@ h4{
 	font-size: 24px;
 	color: #004d72;
 	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 0;
 }
 .section-align{
-	margin-left: 100px;
+	margin-left: 90px;
 }
 .main-content-wrapper{
 	margin-left: 40px;
+}
+
+/*Footer Styles*/
+.email-wrapper{
+	width: 190px;
+	margin: 0 auto;
+	position: relative;
+	top:85px;
+	right: 50px;
+	font-family: 'arial';
+	font-size: 18px;
+	font-weight: bold;
+}
+.email-wrapper a{
+	text-decoration: none;
+	color: #b3ecff;
+	letter-spacing: 3px;
+}
+.email-wrapper a:hover{
+	text-decoration: underline;
+}
+.footer{
+	position: relative;
+	bottom: 20px;
 }
