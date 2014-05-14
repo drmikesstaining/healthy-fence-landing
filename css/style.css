@@ -19,6 +19,9 @@ h4{
 	font-family: 'arial';
 	font-weight: bold;
 }
+.mobile-show{
+	display: none;
+}
 .caps{text-transform: uppercase;}
 .container{
 	max-width: 1100px;

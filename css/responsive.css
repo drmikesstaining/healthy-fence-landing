@@ -1,5 +1,8 @@
 /*iPhone Styles*/
 @media screen and (max-width : 480px){ 
+	.container{
+		width: 100%;
+	}
 	.mobile-hide{
 		display: none;
 	}
@@ -15,7 +18,7 @@
 	.section h4{
 		display: inline-block;
 		vertical-align: top;
-		margin-top: 30px;
+		margin-top: 20px;
 		font-size: 2em;
 	}
 	.section-align{
@@ -26,5 +29,21 @@
 	}
 	.section-align ul{
 		font-size: 24px;
+	}
+	.mobile-show{
+		display: inline;
+	}
+	.font-styling{
+		font-size: 24px;
+	}
+	.push-right{
+		margin-left: 30px;
+	}
+	.divider-mobile{
+		margin-left: 100px;
+		margin-top: 20px;
+	}
+	.services-list{
+		font-size: 20px;
 	}
 }
