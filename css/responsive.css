@@ -1,4 +1,30 @@
 /*iPhone Styles*/
-@media only screen and (min-width : 320px) and (max-width : 568px) { 
-	
+@media screen and (max-width : 480px){ 
+	.mobile-hide{
+		display: none;
+	}
+
+	.header{
+		background: url('/img/hero-mobile.jpg') no-repeat;
+		background-size: cover;
+	}
+	.statement{
+		font-size: 26px;
+		width: 540px;
+	}
+	.section h4{
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 30px;
+		font-size: 2em;
+	}
+	.section-align{
+		margin-left: 240px;
+	}
+	.section-align p{
+		font-size: 26px;
+	}
+	.section-align ul{
+		font-size: 24px;
+	}
 }

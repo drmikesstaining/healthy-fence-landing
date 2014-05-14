@@ -5,14 +5,11 @@
  	format("truetype"),url("/fonts/Kavaler_Kursive/Kavaler_Kursive.svg#KavalerKursive") 
  	format("svg");font-weight:normal;font-style:normal;
  }
-
-
 /*Basic reset*/
 html body{
 	margin: 0;
 	padding: 0;
 }
-
 /*Global Styles*/
 ul li{list-style-type: none;}
 footer{text-align: center;}
@@ -22,19 +19,17 @@ h4{
 	font-family: 'arial';
 	font-weight: bold;
 }
-
 .caps{text-transform: uppercase;}
-
 .container{
-	width: 1100px;
+	max-width: 1100px;
 	margin: 0 auto;
 }
-
 /*Header Styles*/
 .header{
-	width: 1100px;
+	max-width: 100%;
 	height: 445px;
-	background-image: url('/img/hero.jpg');	
+	background: url('/img/hero.jpg');
+
 }
 .logo-wrapper{
 	width: 200px;
@@ -87,9 +82,6 @@ h4{
 	padding: 0;
 	line-height: 20px;
 }
-
-
-
 /*Section Styles*/
 .section{
 	margin-left: 40px;
@@ -155,7 +147,6 @@ h4{
 .main-content-wrapper{
 	margin-left: 40px;
 }
-
 /*Footer Styles*/
 .email-wrapper{
 	width: 190px;
