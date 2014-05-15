@@ -6,9 +6,9 @@
 	.mobile-hide{
 		display: none;
 	}
-.main-content-wrapper{
-	margin-left: 15px;
-}
+	.main-content-wrapper{
+		margin-left: 15px;
+	}
 	.header{
 		height: 145px;
 		background: url('/img/hero-mobile.jpg') no-repeat;
@@ -24,32 +24,38 @@
 	}
 	.section h4{
 		display: inline-block;
-		margin-right: 20px;
+		margin-right: 10px;
 	}
 	.section-align{
-		margin-left: 240px;
+		margin-left: 40px;
 	}
 	.section-align p{
-		font-size: 26px;
+		font-size: 12px;
 	}
 	.section-align ul{
-		font-size: 24px;
+		font-size: 12px;
+	}
+	.section-separator{
+		margin-right: 15px;
+	}
+	.mobile-width{
+		width: 220px;
 	}
 	.mobile-show{
 		display: inline;
 	}
 	.font-styling{
-		font-size: 24px;
+		font-size: 12px;
 	}
 	.push-right{
-		margin-left: 30px;
+		margin-left: 0;
 	}
 	.divider-mobile{
-		margin-left: 100px;
-		margin-top: 20px;
+		max-width: 100%;
+		text-align: center;
 	}
 	.services-list{
-		font-size: 20px;
+		font-size: 12px;
 	}
 	.email-wrapper{
 		bottom: 0;
