@@ -12,7 +12,7 @@
 	.header{
 		height: 145px;
 		background: url('../img/hero-mobile.jpg') no-repeat;
-		background-size: contain;
+		background-size: cover;
 	}
 	.statement{
 		font-size: 12px;
