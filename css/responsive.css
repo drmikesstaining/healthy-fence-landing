@@ -56,9 +56,14 @@
 	}
 	.services-list{
 		font-size: 12px;
+		width: 230px;
 	}
 	.email-wrapper{
 		bottom: 0;
 		top: 75px;
+	}
+	.cursive-contact{
+		font-size: 12px;
+		margin-top: 0;
 	}
 }
