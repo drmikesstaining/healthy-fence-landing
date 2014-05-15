@@ -10,7 +10,7 @@
 		margin-left: 15px;
 	}
 	.header{
-		height: 145px;
+		height: 141px;
 		background: url('../img/hero-mobile.jpg') no-repeat;
 		background-size: cover;
 	}
@@ -68,12 +68,12 @@
 	}
 	.email-wrapper{
 		bottom: 0;
-		top: 24px;
+		top: 30px;
 		font-size: 6px;
 		left: 25px;
 		right: 0;
 	}
 	.footer{
-		bottom: 0;
+		bottom: -10px;
 	}
 }
