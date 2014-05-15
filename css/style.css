@@ -171,8 +171,18 @@ h4{
 }
 .footer{
 	position: relative;
-	
 }
 .footer img{
 		max-width: 100%;
-	}
+}
+.footer-contact{
+	font-size: 72px;
+	font-family: 'rockwell' arial;
+	position: absolute;
+	bottom: 80px;
+	left: 330px;
+}
+.footer-contact a{
+	color: white;	
+	text-decoration: none;
+}
