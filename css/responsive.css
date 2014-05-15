@@ -1,7 +1,7 @@
 /*iPhone Styles*/
 @media screen and (max-width : 480px){ 
 	.container{
-		width: 100%;
+		max-width: 480px;
 	}
 	.mobile-hide{
 		display: none;
