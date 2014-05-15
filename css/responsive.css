@@ -66,4 +66,11 @@
 		font-size: 12px;
 		margin-top: 0;
 	}
+	.email-wrapper{
+		bottom: 0;
+		top: 24px;
+		width: inherit;
+		font-size: 6px;
+		left: 85px;
+	}
 }
