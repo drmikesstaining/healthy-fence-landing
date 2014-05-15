@@ -1,30 +1,69 @@
 /*iPhone Styles*/
 @media screen and (max-width : 480px){ 
+	.container{
+		width: 100%;
+	}
 	.mobile-hide{
 		display: none;
 	}
-
+	.main-content-wrapper{
+		margin-left: 15px;
+	}
 	.header{
+		height: 145px;
 		background: url('/img/hero-mobile.jpg') no-repeat;
-		background-size: cover;
+		background-size: contain;
 	}
 	.statement{
-		font-size: 26px;
-		width: 540px;
+		font-size: 12px;
+		width: 240px;
+	}
+	.section{
+		margin-left: 0;
+		margin-top: 20px;
 	}
 	.section h4{
 		display: inline-block;
-		vertical-align: top;
-		margin-top: 30px;
-		font-size: 2em;
+		margin-right: 10px;
 	}
 	.section-align{
-		margin-left: 240px;
+		margin-left: 40px;
 	}
 	.section-align p{
-		font-size: 26px;
+		font-size: 12px;
 	}
 	.section-align ul{
-		font-size: 24px;
+		font-size: 12px;
+	}
+	.section-separator{
+		margin-right: 15px;
+	}
+	.mobile-width{
+		width: 220px;
+	}
+	.mobile-show{
+		display: inline;
+	}
+	.font-styling{
+		font-size: 12px;
+	}
+	.push-right{
+		margin-left: 0;
+	}
+	.divider-mobile{
+		max-width: 100%;
+		text-align: center;
+	}
+	.services-list{
+		font-size: 12px;
+		width: 230px;
+	}
+	.email-wrapper{
+		bottom: 0;
+		top: 75px;
+	}
+	.cursive-contact{
+		font-size: 12px;
+		margin-top: 0;
 	}
 }
