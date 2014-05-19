@@ -37,7 +37,7 @@ h4{
 .logo-wrapper{
 	width: 200px;
 	height: 150px;
-	margin-left: 40px;
+	margin-left: 50px;
 	margin-top: 20px;
 	display: inline-block;
 	vertical-align: top;
@@ -62,11 +62,8 @@ h4{
 .contact-info{text-align: center;}
 .contact-info p{margin: 0;}
 .header-statement{
-	width: 300px;	
 	display: inline-block;
-	margin-left: 70px;
-	text-transform: uppercase;
-	text-align: center;
+	margin-left: 120px;
 }
 
 /*Sidebar Styles*/
@@ -185,4 +182,5 @@ h4{
 .footer-contact a{
 	color: white;	
 	text-decoration: none;
+	font-family: 'rockwell';
 }

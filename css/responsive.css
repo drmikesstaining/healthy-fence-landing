@@ -78,9 +78,8 @@
 		font-size: 12px;
 		width: 230px;
 	}
-	.email-wrapper{
-		bottom: 0;
-		top: 75px;
+	.email-wrapper a{
+		letter-spacing: normal;
 	}
 	.cursive-contact{
 		font-size: 12px;
@@ -89,9 +88,9 @@
 	.email-wrapper{
 		bottom: 0;
 		top: 26px;
-		font-size: 6px;
-		left: 25px;
+		font-size: 10px;
 		right: 0;
+		left: 25px;
 	}
 	.footer{
 		bottom: -10px;
