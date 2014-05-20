@@ -16,7 +16,7 @@
 	}
 	.header-contact{
 		font-size: 9px;
-		color: #084d70;
+		color: #fdf9c9;
 		position: absolute;
 		right: 0;
 		text-align: center;
@@ -87,19 +87,37 @@
 	}
 	.email-wrapper{
 		bottom: 0;
-		top: 28px;
-		font-size: 10px;
+		top: 44px;
+		font-size: 14px;
 		right: 0;
-		left: 30px;
 	}
-	.footer{
-		bottom: -10px;
-	}
+	
 	.footer-contact{
-		font-size: 20px;
 		position: absolute;
-		bottom: 25px;
-		left: 92px;
+		bottom: 40px;
+		left: 50px;
 		letter-spacing: 2px;
+	}
+	.footer-contact a{
+	font-size: 40px;
+	color: white;	
+	text-decoration: none;
+}
+	.contact-align{
+			margin-top: 2px !important;
+		}
+	}
+	.satisfaction-shield{
+		position: relative;
+		bottom: 40px;
+	}
+	.satisfaction-shield hr{
+		border-color: #9dc9dc;
+	}
+	.satisfaction-shield img{
+		position: relative;
+		z-index: 1;
+		top: 55px;
+		left: 75px;
 	}
 }
